@@ -20,8 +20,10 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "@types/cors": "^2.8.19",
     "@types/dotenv": "^8.2.3",
     "@types/ws": "^8.18.1",
+    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "ws": "^8.18.3"
   }
