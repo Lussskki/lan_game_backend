@@ -21,6 +21,8 @@
   },
   "dependencies": {
     "@types/dotenv": "^8.2.3",
-    "dotenv": "^17.2.3"
+    "@types/ws": "^8.18.1",
+    "dotenv": "^17.2.3",
+    "ws": "^8.18.3"
   }
 }
