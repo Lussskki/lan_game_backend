@@ -4,6 +4,8 @@ import sys
 import requests
 import socket
 
+from dotenv import load_dotenv
+load_dotenv()
 
 pygame.init()
 pygame.font.init()
@@ -30,7 +32,7 @@ def notify_backend_connection():
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Backend URL 
-BACKEND_IP = 'http://192.168.100.7:5000'
+BACKEND_IP = os.getenv("BACKEND_IP")
 
 # Icon
 ICON_PATH = os.path.join(BASE_DIR, 'Assets', 'spaceship_red.ico')
