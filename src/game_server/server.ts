@@ -47,5 +47,5 @@ app.get('/leaderboard', (_req: Request, res: Response) => {
 })
 
 app.listen(PORT, () => {
-  console.log('http://192.168.100.6:5000 connected')
+  console.log('http://192.168.100.5:5000 connected')
 })
